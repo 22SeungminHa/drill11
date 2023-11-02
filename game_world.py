@@ -1,10 +1,11 @@
 objects = [[] for _ in range(4)]
 
 
-def add_object(o, depth = 0):
+def add_object(o, depth=0):
     objects[depth].append(o)
 
-def add_objects(ol, depth = 0):
+
+def add_objects(ol, depth=0):
     objects[depth] += ol
 
 
